@@ -1,0 +1,44 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Mayagüez
+---
+
+{% assign loclist = site.data.locations | where: "state", "Puerto Rico" | where: "city", "Mayagüez" | sort: 'name' %}
+{% assign filtered_subs = loclist | map: 'sub' | uniq %}
+{% for sub in filtered_subs %}
+  <table class="tblblock">
+    <caption>{{ sub }}</caption>
+    <tbody>
+  {% assign filtered_locs = loclist | where: "sub", sub %}
+  {% for loc in filtered_locs %}
+      <tr>
+        <th>
+          {{ loc.name }}
+        </th>
+        <td>
+          <a href="http://maps.google.com/maps?q=loc:{{ loc.latitude }},{{ loc.longitude }}&navigate=yes">
+            Android/Google Maps
+          </a>
+        </td>
+        <td>
+          <a href="http://maps.apple.com/?q={{ loc.latitude }},{{ loc.longitude }}&z=10&t=s">
+            iPhone
+          </a>
+        </td>
+        <td>
+          <input type="text" value="{{ loc.latitude }},{{ loc.longitude }}" readonly><br>
+          <button onclick="copyGPS(this.parentNode.firstChild.nextSibling);">Copiar</button>
+        </td>
+        <td>
+          <a href="whatsapp://send?text={{ loc.name }}: {{ loc.latitude }},{{ loc.longitude }}" data-action="share/whatsapp/share">Share via Whatsapp</a>
+        </td>
+      </tr>
+  {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
+
+<script src='/assets/js/utils.js'></script>
