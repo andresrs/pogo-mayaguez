@@ -55,6 +55,19 @@ $on-large:         $on-laptop !default;
   "minima/syntax-highlighting"
 ;
 
+.cell_whatsapp:link, .cell_whatsapp:visited, .cell_whatsapp:hover, .cell_whatsapp:active {
+  background-color: lightseagreen;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cell_whatsapp:hover, .cell_whatsapp:active {
+  font-weight: bold;
+}
+
 .tblblock input {
   border: none;
   border-color: transparent;
