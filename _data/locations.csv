@@ -1,11 +1,11 @@
-latitude,longitude,country,state,city,name,sub
-18.201179,-67.13883,Estados Unidos,Puerto Rico,Mayagüez,Plaza Colon y Anales,Pueblo
-18.2011,-67.1400,Estados Unidos,Puerto Rico,Mayagüez,Teatro/Fountain,Pueblo
-18.2009,-67.1417,Estados Unidos,Puerto Rico,Mayagüez,Iglesia de los patos,Pueblo
-18.201355,-67.14376,Estados Unidos,Puerto Rico,Mayagüez,Correo,Pueblo
-18.2037,-67.138989,Estados Unidos,Puerto Rico,Mayagüez,Monumento veteranos,Pueblo
+latitude,longitude,country,state,city,name,sub,route1
+18.201179,-67.13883,Estados Unidos,Puerto Rico,Mayagüez,Plaza Colon y Anales,Pueblo,3
+18.2011,-67.1400,Estados Unidos,Puerto Rico,Mayagüez,Teatro/Fountain,Pueblo,4
+18.2009,-67.1417,Estados Unidos,Puerto Rico,Mayagüez,Iglesia Evangelica Independiente (Patos),Pueblo,5
+18.201355,-67.14376,Estados Unidos,Puerto Rico,Mayagüez,Correo Pueblo,Pueblo,6
+18.2037,-67.138989,Estados Unidos,Puerto Rico,Mayagüez,Monumento veteranos,Pueblo,1
 18.20588,-67.13897,Estados Unidos,Puerto Rico,Mayagüez,El Indio,Pueblo
-18.203437,-67.1381596,Estados Unidos,Puerto Rico,Mayagüez,Busto Luis A. Ferrer Aguayo,Pueblo
+18.203437,-67.1381596,Estados Unidos,Puerto Rico,Mayagüez,Busto Luis A. Ferrer Aguayo,Pueblo,2
 18.20481,-67.14445,Estados Unidos,Puerto Rico,Mayagüez,Metal Bench,Pueblo
 18.1966,-67.1428,Estados Unidos,Puerto Rico,Mayagüez,Iglesia Asilo,Pueblo
 18.1964,-67.1428,Estados Unidos,Puerto Rico,Mayagüez,Asilo,Pueblo

@@ -13,5 +13,6 @@ Haz un Pull Request y modifica el archivo \_data/locations.csv. Los campos son:
 - **city**: Ciudad donde está el lugar.
 - **name**: Nombre del lugar.
 - **sub**: Usado para agrupar los gimnasios de Mayagüez.
+- **route1**: Número que corresponde para los gimnasios para los _Legendary Hour_ o eventos especiales.
 
 [^1]: No discusiones sobre el estatus político de PR.
