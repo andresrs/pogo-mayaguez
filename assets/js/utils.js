@@ -14,4 +14,14 @@ copyGPS = function(el) {
     el.readOnly = true;
 
     document.execCommand("copy");
-}
+};
+
+shareLink = function (title, link) {
+    navigator.share({
+        title: title,
+        text: '',
+        url: link
+    })
+    .then(() => console.log('Successfully shared'))
+    .catch((error) => console.log('Error sharing:', error));
+};
