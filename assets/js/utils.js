@@ -25,3 +25,13 @@ shareLink = function (title, link) {
     .then(() => console.log('Successfully shared'))
     .catch((error) => console.log('Error sharing:', error));
 };
+
+shareText = function(title, text) {
+    navigator.share({
+        title: title,
+        text: text,
+        url: ''
+    })
+    .then(() => console.log('Successfully shared'))
+    .catch((error) => console.log('Error sharing:', error));
+}
