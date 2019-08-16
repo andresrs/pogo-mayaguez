@@ -33,8 +33,9 @@ title: Mayagüez
           <button onclick="copyGPS(this.parentNode.firstChild.nextSibling);">Copiar</button>
         </td>
         <td>
-          Share via
-          <a class="cell_whatsapp" href="whatsapp://send?text={{ loc.name }}: {{ loc.latitude }},{{ loc.longitude }}" data-action="share/whatsapp/share">Whatsapp</a>
+          Share via<br>
+          <a class="cell_share cell_whatsapp" href="whatsapp://send?text={{ loc.name }}: {{ loc.latitude }},{{ loc.longitude }}" data-action="share/whatsapp/share">Whatsapp</a>
+          <a class="cell_share cell_ios" href="#" onclick="shareText('{{ loc.name }}', '{{ loc.latitude }},{{ loc.longitude }}')">iOS Share</a>
         </td>
       </tr>
   {% endfor %}
