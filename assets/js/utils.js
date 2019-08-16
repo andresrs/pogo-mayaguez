@@ -29,7 +29,7 @@ shareLink = function (title, link) {
 shareText = function(title, text) {
     navigator.share({
         title: title,
-        text: text,
+        text: title + "\n" + text,
         url: ''
     })
     .then(() => console.log('Successfully shared'))
