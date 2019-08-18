@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Agradecimientos
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Johnatan
+- Karura
+- Chats de Mayaguez
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Por ayudarme cuando regresé al juego y establecer algunas de las rutas que hacemos para los raids.
 
+- Joe Santos
+- Anibal Da Kidd
 
-[jekyll-organization]: https://github.com/jekyll
+Coordenadas y aclaraciones.
+
+## Detalles
+
+Esta página está creada con [Jekyll](https://jekyllrb.com/), usando el theme de [minima](https://github.com/jekyll/minima/).
+
+Para editar está página, diríjase al [Github de la página](https://github.com/andresrs/pogo-mayaguez/).
